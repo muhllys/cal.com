@@ -6,7 +6,7 @@ import * as constants from "@calcom/lib/constants";
 function setupEnvs({ WEBAPP_URL = "https://app.cal.com" } = {}) {
   Object.defineProperty(constants, "WEBAPP_URL", { value: WEBAPP_URL });
   Object.defineProperty(constants, "ALLOWED_HOSTNAMES", {
-    value: ["cal.com", "cal.dev", "cal-staging.com", "cal.community", "cal.local:3000", "localhost:3000"],
+    value: ["cal.com", "calendar.mazed.ai", "mazed.up.railway.app", "mazed.ai", "cal.dev", "cal-staging.com", "cal.community", "cal.local:3000", "localhost:3000"],
   });
   Object.defineProperty(constants, "RESERVED_SUBDOMAINS", {
     value: [
